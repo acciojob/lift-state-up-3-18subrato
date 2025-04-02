@@ -4,7 +4,7 @@ const Component1 = ({setSelectedOption}) => {
 
   return (
     <div style={{backgroundColor:"darkorange"}}>
-      <h2>Child Component 1</h2>
+      <h3>Child Component 1</h3>
       <button onClick={()=>setSelectedOption(1)}>Option 1</button>
     </div>
   )
