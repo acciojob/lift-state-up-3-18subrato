@@ -14,9 +14,7 @@ const Parent = () => {
       <Component2
         setSelectedOption={setSelectedOption}
       />
-      <p>Selected Option:
-       {selectedOption == 1 ? 'Option 1' : selectedOption == 2 ? 'Option 2':''}
-      </p>
+      <p>Selected Option: {selectedOption == 1 ? 'Option 1' : selectedOption == 2 ? 'Option 2':''}</p>
     </div>
   )
 }
