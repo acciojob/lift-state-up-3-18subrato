@@ -7,6 +7,7 @@ const Parent = () => {
 
   return (
     <div className='parent' style={{backgroundColor:"lightgreen"}}>
+      <h1>Parent Component</h1>
       <Component1 
         setSelectedOption={setSelectedOption}
       />
